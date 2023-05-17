@@ -1,4 +1,5 @@
--- SQL script to display the maximum temperature of each state, ordered by state name
+-- SQL script to display the maximum temperature 
+-- +of each state, ordered by state name
 
 USE hbtn_0c_0;
 

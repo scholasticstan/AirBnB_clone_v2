@@ -1,4 +1,5 @@
--- SQL script to display the average temperature (Fahrenheit) by city ordered by temperature (descending)
+-- SQL script to display the average temperature (Fahrenheit)
+-- +by city ordered by temperature (descending)
 
 USE hbtn_0c_0;
 
