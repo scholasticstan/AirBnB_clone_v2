@@ -5,5 +5,4 @@
 database=$1
 
 -- Run the SQL query using the mysql command
-mysql -uroot -p -e "USE $database; SELECT * FROM first_table;"
-
+echo "SELECT * FROM first_table;" | mysql -h localhost -u root -p $database
