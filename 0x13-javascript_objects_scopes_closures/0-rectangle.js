@@ -1,4 +1,5 @@
 #!/usr/bin/node
-
-class Rectangle {}
-
+// JS script to define an empty class
+class Rectangle {
+}
+module.exports = Rectangle;
