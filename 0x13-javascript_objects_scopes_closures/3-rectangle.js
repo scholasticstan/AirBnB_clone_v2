@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 // JS script to define a class, creates an instance method to print rectangle
 class Rectangle {
   constructor (w, h) {
