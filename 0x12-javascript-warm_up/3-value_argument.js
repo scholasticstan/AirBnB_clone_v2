@@ -1,5 +1,9 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 
-const arg0 = process.argv[2];
+const [, , ...args] = process.argv;
 
-console.log(arg0 !== undefined ? arg0 : 'No argument')
+if (args.length === 0) {
+  console.log("No argument");
+} else {
+  console.log(args[0]);
+}
